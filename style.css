@@ -1,0 +1,132 @@
+.navbar {
+    background-color: #1c83d3;
+    color: white;
+}
+
+
+#rech_pay {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal
+}
+
+#mobile,
+#true5g,
+#jiofiber,
+#airfiber,
+#business,
+#devices,
+#apps,
+#support {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+
+#myCarousel {
+    background-color: #121212;
+}
+
+.carousel-item img {
+    height: 60vh;
+    width: 100%;
+    /* Adjust height as needed */
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: auto; /* Adjusts height dynamically */
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+         /* Prevents excessive stretching on small screens */
+    }
+}
+
+#rech_pay {
+    font-size: 40px;
+}
+
+.recharge-container {
+    max-width: 100px; /* Adjust as needed */
+    margin: auto;
+  }
+
+  #recharge-button {
+    height: 35px;
+    width: 140px;
+    color: #eee9e9;
+    background-color: rgb(16, 3, 116);
+    border-radius: 50px;
+    padding: 5px 10px; /* Adds more space on left and right */
+    display: inline-block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#main-recharge{
+    border-radius: 14px; /* Increase the curve */
+    
+}
+
+.heading2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.para1{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.para2{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.para3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color: #18086d;
+    
+}
+
+.heading3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px; 
+}
+
+#get-jio-sim {
+    height: 40px;
+    padding-top: 4px;
+    width: 140px;
+    font-size: 10px;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Centers the button */
+}
+
+footer{
+    background-color: #fdfefe;
+}
